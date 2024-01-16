@@ -36,6 +36,7 @@ option{
     border-top: 3px solid gray;
     border-right: 3px solid gray;
     transform: rotate(45deg);
+    margin-left: 10px;
 }
 
 .mn ul{
@@ -57,6 +58,7 @@ option{
     margin-left: 20px;
     text-decoration: none;
     color: black;
+    
 }
 .mn li:not(:last-child){
     border-bottom: 1px solid rgba(128, 128, 128, 0.174);
@@ -88,5 +90,25 @@ option{
     /* margin-right: 10px; */
     margin: 0 10px;
     margin-bottom: 15px;
-    
+    position: relative;
+}
+.ic{
+ position: absolute;
+ left: 10px;
+ font-size: 19px;
+ bottom: 70px;
+ color: #679a06;
+ 
+}
+.sp .ic{
+    display: none;
+}
+.sp div:hover .ic{
+  display: block;
+}
+.ic:hover{
+
+}
+.sp div:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
